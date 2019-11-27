@@ -22,9 +22,15 @@ Win32/*
 cmake_install.cmake
 x64/*
 Testing/
+.deps
+*.lo
+*.la
+.libs
 
 # Generated header
 src/mongocrypt-export.h
+src/mongocrypt-config.h
+src/mongocrypt.h
 
 # IDEs
 .idea/
